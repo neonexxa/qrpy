@@ -3,6 +3,7 @@ import numpy as np
 
 # from PIL import Image
 import cv2
+import zbarlight
 
 def is_contour_bad(c):
 	# approximate the contour
@@ -30,14 +31,3 @@ def detect(image):
 	image = cv2.bitwise_and(image, image, mask=mask)
 	# cv2.imshow("after", image)
 	return None
-	# zimage = Image.fromarray(gray)
-	# width, height = zimage.size
-	# zbar_image = zbar.Image(width, height, 'Y800', zimage.tostring())
-
-	# # Scans the zbar image.
-	# scanner = zbar.ImageScanner()
-	# scanner.scan(zbar_image)
-
-	# # Prints data from image.
-	# for decoded in zbar_image:
-	# 	print(decoded.data)

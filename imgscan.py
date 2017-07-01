@@ -22,6 +22,7 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 edged = cv2.Canny(gray, 50, 100)
 cv2.imshow("Original", image)
 
+
 (im2, contours, hierarchy) = cv2.findContours(edged.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 mask = np.ones(image.shape[:2], dtype="uint8") * 255
 con = sorted(contours, key = cv2.contourArea, reverse = True)[0]

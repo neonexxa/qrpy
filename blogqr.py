@@ -1,6 +1,7 @@
-from Code import qrscan
+import qrscan
 import argparse
 import cv2
+import zbarlight
  
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
