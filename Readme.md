@@ -18,7 +18,7 @@ This repositories contains all neonexxa experiments on opencv exploration.
 - argparse 
 
 ### Build and testing
-![haha](https://github.com/neonexxa/qrpy/blob/master/imgwithzbar.gif)
+![](https://thumbs.gfycat.com/MintyHopefulKookaburra-size_restricted.gif)
 
 # References
 - [Open CV Contours Hierarchy](http://docs.opencv.org/trunk/d9/d8b/tutorial_py_contours_hierarchy.html)
