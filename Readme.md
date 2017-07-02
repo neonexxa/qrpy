@@ -11,11 +11,17 @@ This repositories contains all neonexxa experiments on opencv exploration.
 
 ## Setup
 ### Pre-requisite
-- opencv3
 - python3
-- zbarlight (zbar is not supported for python3, we gonna use zbarlight instead)
-- numpy
-- argparse 
+[Mac OSX](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/),
+[Windows](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/win/),
+[Linux](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/linux/)
+- opencv3   
+```
+$ pip3 install opencv-python
+```
+- [Zbarlight](https://github.com/Polyconseil/zbarlight) (zbar is not supported for python3, we gonna use zbarlight instead)
+- [numpy](https://docs.scipy.org/doc/numpy-1.10.1/user/install.html)
+- [argparse](https://pypi.python.org/pypi/argparse)
 
 ### Build and testing
 ![](https://thumbs.gfycat.com/MintyHopefulKookaburra-size_restricted.gif)
