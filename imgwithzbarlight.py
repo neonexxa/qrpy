@@ -6,6 +6,7 @@ import zbarlight
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required = True, help = "path to the image file")
+# ap.add_argument("-v", "--video", help = "path to the (optional) video file")
 args = vars(ap.parse_args())
 with open(args["image"], 'rb') as image_file:
     gmbar = Image.open(image_file)
